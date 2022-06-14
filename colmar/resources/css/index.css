@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+}
+body {
+    font-family: 'Avenir Next LT Pro',sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+nav {
+    /* border: 1px solid rebeccapurple; */
+    max-height: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-r{
+    /* border: 1px solid red; */
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+}
+.header-r img{
+    padding: 10px 5px;
+}
+.header-l {
+    /* border: 1px solid orangered; */
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-l ul {
+    /* border: 1px solid yellow; */
+    padding-right: 24px;
+    display: flex;
+    column-gap: 16px;
+    list-style: none;
+}
+#banner-container {
+    /* background-color: #d7d7d7; */
+    display: flex;
+    align-items: center;
+}
+#banner-container img{
+    width: 60%;
+}
+#banner-container #banner-text {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 24px;
+    row-gap: 15px;
+}
+#banner-container #banner-text h1,p {
+    color: #4a4a4a;
+}
+#banner-container #banner-text button {
+    background-color: #4a4a4a;
+    color: white;
+    border: unset;
+    padding: 8px 0px;
+}
+#info-container {
+    /* border: 1px solid red; */
+    display: flex;
+}
+#info-container #info-container-l {
+    width: 60%;
+    margin: 32px 24px;
+}
+#info-container #info-container-l img {
+    width: 100%;
+}
+#info-container #info-container-l .text-box {
+    /* border: 2px solid salmon; */
+    color: #4a4a4a;
+    margin:  32px auto;
+}
+#info-container #info-container-l .text-box p {
+    margin: 24px 0;
+}
+#info-container #info-container-r {
+    width: 40%;
+    margin-top: 15px;
+}
+#info-container #info-container-r img {
+    width: 35%;
+    margin: 16px 16px;
+}
+#info-container #info-container-r .box {
+    /* border: 5px solid black;  */
+    display: flex
+}
+#info-container #info-container-r .box:nth-child(3){
+    background-color: #eaebec;
+}
+#info-container #info-container-r .box .text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 8px;
+}
+/* Section3 */
+#start-container{
+    background-color: #eaebec;
+    color: #4a4a4a;
+    height: 1450px;
+}
+#start-container h1{
+    text-align: center;
+    padding: 32px;
+}
+#start-container .box-container{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 32px;
+    row-gap: 24px;
+    margin-bottom: 32px;
+}
+#start-container .box-container{
+    /* border: 2px solid black; */
+    margin-bottom: 32px;
+}
+#start-container .box-container .box {
+    background-color: white;
+
+}
+#start-container .box-container .box .text-box {
+    margin-top: 16px;
+    margin-left: 16px;
+    height: 130px;
+}
+#start-container .box-container .box .text-box h3{
+    margin-bottom: 12px;
+}
+#start-container .box-container .box .text-box p {
+    /* border: 2px solid salmon; */
+    display: flex;
+    flex-basis: 100%;
+    row-gap: 8px;
+}
+/* the end of the section 3 */
+#exhibit h1{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin: 32px;
+}
+#exhibit #exhibit-container {
+    display: flex;
+    column-gap: 24px;
+}
+#exhibit #exhibit-container #exhibit-container-l {
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+#exhibit #exhibit-container #exhibit-container-l{
+    /* border: 2px solid black; */
+    max-width: 60%;
+}
+#exhibit #exhibit-container #exhibit-container-l .text-box{
+    /* border: 2px solid palevioletred; */
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 8px;
+
+}
+#exhibit #exhibit-container #exhibit-container-l video{
+    width: 100%;
+
+}
+#exhibit #exhibit-container #exhibit-container-r {
+    /* border: 2px solid yellow; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+#exhibit #exhibit-container #exhibit-container-r .box{
+    display: flex;
+}
+#exhibit #exhibit-container #exhibit-container-r .box:nth-child(1){
+    background-color: #d7d7d7;
+}
+#exhibit #exhibit-container #exhibit-container-r .box img{
+    /* border: 2px solid black; */
+    width: 35%;
+    padding: 16px 16px;
+
+}
+#exhibit #exhibit-container #exhibit-container-r .box .text-box{
+    /* border: 2px solid orange; */
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+}
+/*end of section4 */
+/* footer */
+#footer{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-left: 24px;
+    padding-bottom: 25px;
+}

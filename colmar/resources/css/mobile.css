@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px){
+    nav{
+        max-height: 64px;
+        width: 100%;
+        
+    }
+    nav .header-r .header-l img,h1,ul,li{
+        display: none;
+    }
+    nav .header-r .header-r ul li{
+        margin: 0 auto;
+        background-image: url('../images/ic-logo.svg');
+    }
+    #banner-container {
+        /* background-color: #d7d7d7; */
+        display: flex;
+        flex-direction: column;
+    }
+    #banner-container img {
+        width: 100%;
+    }
+    #banner-container #banner-text{
+        padding: 0px 0px 32px;
+        flex-direction: column;
+    }
+}
