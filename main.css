@@ -3,6 +3,7 @@ body {
     height: 100%;
     position: relative;
     background-color: whitesmoke;
+    font-family: 'Merriweather', serif;
 }
 #home-page{
  height: 100vh;
@@ -10,8 +11,8 @@ body {
 }
 #home-page .welcome {
     /* border: 1px solid red; */
-    padding-left: 125px;
-    border: 2px solid black;
+    /* padding-left: 125px;
+    border: 2px solid black; */
 }
 /* .home-page {
     border: 1px solid red;
