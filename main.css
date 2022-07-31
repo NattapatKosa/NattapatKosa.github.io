@@ -5,30 +5,14 @@ body {
     background-color: whitesmoke;
     font-family: 'Merriweather', serif;
 }
+#navbar {
+    z-index: 1500;
+}
 #home-page{
  height: 100vh;
  /* border: 1px solid red */
 }
-#home-page .welcome {
-    /* border: 1px solid red; */
-    /* padding-left: 125px;
-    border: 2px solid black; */
-}
-/* .home-page {
-    border: 1px solid red;
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    height: 100%;
-}
-.home-page img {
-    width: 60%;
-}
-.home-page .text {
-    border: 1px solid red;
-    color: #fbefda;
-    margin: auto;
-} */
+
 #about-me {
     height: 100vh;
     
