@@ -1,20 +1,251 @@
-<html>
-	<head>
-		<style>
-			body {
-				height: 100%;
-				width: 100%;
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
-				background-image: linear-gradient(90deg,#03dc41 0%,#0074b9 95%);
-				color: white;
-			}
-		</style>
-	</head>
-	<body>
-		<h1>Hello World! 👋🌍</h1>
-		<h1>I'm Nattapat Kosa 👋🌍</h1>
-	<body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script src="https://kit.fontawesome.com/6d59b791d9.js" crossorigin="anonymous"></script>
+	<!-- BootStrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+	<!-- BootStrap icon-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<!-- Css styling -->
+	<link rel="stylesheet" href="./main.css">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar_default" data-bs-offset="0" tabindex="0">
+	<!-- navBar -->
+	<nav class="navbar navbar-expand-lg bg-light" id="navbar_default">
+		<div class="container">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">About me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Education</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Contacts</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- header -->
+	<div class="container">
+		<section id="home-page">
+			<div class="row h-100">
+				<div class="col-md-6 my-auto">
+					<div class="welcome">
+						<h1 class="line1">Bello Bello !!</h1>
+						<h3 class="line2 ">My name is Nattapat Kosa</h3>
+						<h3 class="line3 ">Called me Mhork</h3>
+					</div>
+				</div>
+				<div class="col-md-6 my-auto text-center">
+					<img class="profile img-fluid" src="./resources/image/LINE_ALBUM_เข้มปั้ด1_๒๒๐๕๓๐_0.jpg"
+						width="100%" alt="Responsive image" />
+				</div>
+			</div>
+		</section>
+		<!-- about me -->
+		<section id="about-me">
+			<div class="row h-100">
+				<div class="col-md-6 my-auto text-center">
+					<img src="./resources/image/1597317063783.jpg " />
+				</div>
+				<div class="col-md-6 my-auto ">
+					<h1>About me</h1>
+					<p>
+						I am new graduated mechanical engieer who have intersest in digital
+						disruption, <br />
+						And believed that technology will make life easier and solved various
+						type of problems that arise in daily life. <br />
+						With this thought therefore i want to work in technology field to be
+						apart of people who solved problems and make life easier.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section id="skills">
+			<div class="row">
+				<div class="row text-center my-3">
+					<h1>Skills</h1>
+					<div class="row text-center justify-content-center align-items-center" style="margin: 10px;">
+						<div class="col">
+							<i class="fa-brands fa-square-js"></i>
+							<p>Experiences</p>
+						</div>
+						<div class="col">
+							<i class="fa-brands fa-html5"></i>
+							<p>Experiences</p>
+						</div>
+						<div class="col">
+							<i class="fa-brands fa-css3-alt"></i>
+							<p>Experiences</p>
+						</div>
+						<div class="col">
+							<i class="fa-brands fa-python"></i>
+							<p>Experiences</p>
+						</div>
+						<div class="col">
+							<i class="fa-brands fa-react"></i>
+							<p>Experiences</p>
+						</div>
+						<div class="col">
+							<i class="fa-brands fa-node"></i>
+							<p>Experiences</p>
+						</div>
+						<div class="col">
+							<i class="fab fa-github"></i>
+							<p>Experiences</p>
+						</div>
+						<div class="col">
+							<i class="fas fa-database"></i>
+							<p>Experiences</p>
+						</div>
+					</div>
+				</div>
+		</section>
+		<section id="education">
+			<div class="row text-center">
+				<h1>Educations</h1>
+			</div>
+			<div class="row my-3">
+				<div class="card col-md 6 px-0">
+					<img src="./resources/image/generation.png" class="card-img-top" />
+					<div class="card-body">
+						<h5 class="card-title">Generation</h5>
+						<p class="card-text ">
+							Juniour software developer bootcamp<br />
+							By learning both technical skills(MERN STACK) <br />
+							along with Soft Skills.
+						</p>
+						<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+					</div>
+				</div>
+				<div class="card col-md 6  px-0">
+					<img src="./resources/image/default_thumb_green.png" class="card-img-top" width="auto" />
+					<div class=" card-body">
+						<h5 class="card-title">Mechanical Engineering</h5>
+						<p class="card-text">
+							Kasetsart University Bangkhen
+							<br />
+							(Internation Undergraduate Program)
+							<br />
+							<span class="fw-bold">GPA:3.71</span>
+						</p>
+					</div>
+				</div>
+		</section>
+		<section id="projects">
+			<div class="row text-center">
+				<h1>Projects</h1>
+			</div>
+			<div class="row align-items-md-stretch ms-0 mb-3">
+				<div class="col-md-6 mb-3 ">
+					<div class="h-100 p-5 text-bg-dark rounded-3">
+						<h2>JAMMING</h2>
+						<p class="text-start">Web system to search for music and add it to Spotify playlist <br />
+							Created web component by React(js) and use Spotify's API to<br />
+							requset music'track from Spotify and save playlist to Spotify account.</p>
+						<a href="https://github.com/NattapatKosa/jsd-jammming-assessment-function"
+							target="_blank"><button class="btn btn-outline-light" type="button"><i
+									class="fab fa-github"></i></button></a>
+						<a href="https://jsd-jammming-assessment-function.vercel.app/" target="_blank"><button
+								class="btn btn-outline-light" type="button"><i
+									class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
+					</div>
+				</div>
+				<div class="col-md-6 mb-3">
+					<div class="h-100 p-5 text-bg-dark rounded-3">
+						<h2>Extracks</h2>
+						<p class="text-start">Followed user's excercise activity and shares activity with their
+							friends.<br />
+							For client side this is done by React.js and server side is done <br />
+							by Express and MongoDB.</p>
+						<a href="" target="_blank"><button class="btn btn-outline-light" type="button"><i
+									class="fab fa-github"></i></button></a>
+						<a href="#" target="_blank"><button class="btn btn-outline-light" type="button"><i
+									class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
+					</div>
+				</div>
+				<div class="col-md-6 mb-3">
+					<div class="h-100 p-5 text-bg-dark rounded-3">
+						<h2>Analyst Energy Usage in CT</h2>
+						<p class="text-start">Analysis & Optimization energy consumption in cooling tower. <br />
+							Solved mathematical model with python and simulates cooilng tower in diffrent whethers.
+						</p>
+						<!-- <a href="#" target="_blank"><button class="btn btn-outline-light" type="button"><i class="fab fa-github"></i></button></a> -->
+						<a href="https://www.canva.com/design/DAExSVd27hA/eYKLr_C8_bNqHgDnxNTX6g/edit"
+							target="_blank"><button class="btn btn-outline-light" type="button"><i
+									class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
+					</div>
+				</div>
+				<div class="col-md-6 mb-3">
+					<div class="h-100 p-5 text-bg-dark rounded-3">
+						<h2>Energy Storage working condition</h2>
+						<p class="text-start">Analysis & operating condition in Thermal Energy Storage.<br />
+							By using Python libraries to solved mathematical model and<br />
+							show data visualization with diffrent working conditions</p>
+						<!-- <a href="#" target="_blank"><button class="btn btn-outline-light" type="button"><i class="fab fa-github"></i></button></a> -->
+						<a href="https://www.canva.com/design/DAExSVd27hA/eYKLr_C8_bNqHgDnxNTX6g/edit"
+							target="_blank"><button class="btn btn-outline-light" type="button"><i
+									class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="" contact>
+			<div class="row text-center">
+				<h1>Contacts</h1>
+			</div>
+			<div class="d-flex flex-column text-center mb-5">
+				<h5>(+66)800522209</h5>
+				<h5>nattapatksoa@gmail.com</h5>
+				<h5>Chonburi, Thailand</h5>
+			</div>
+			<div class="d-flex flex-row justify-content-center">
+				<a href="https://github.com/NattapatKosa" target="_blank"><button class="btn btn-outline-dark mx-2"
+						type="button">
+						<i class="fab fa-github"></i></button>
+				</a>
+				<a href="" target="_blank"><button class="btn btn-outline-dark mx-2" type="button">
+					<i class="bi bi-linkedin"></i></button>
+				</a>
+				<a href="" target="_blank"><button class="btn btn-outline-dark mx-2" type="button">
+						<i class="fa-solid fa-envelope"></i></button>
+				</a>
+				<a href="" target="_blank"><button class="btn btn-outline-dark mx-2" type="button">
+					<i class="bi bi-facebook"></i></button>
+			</a>
+			</div>
+		</section>
+	</div>
+
+
+
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+		crossorigin="anonymous"></script>
+</body>
+
 </html>
